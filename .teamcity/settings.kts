@@ -41,10 +41,8 @@ project {
     features {
         untrustedBuildsSettings {
             id = "PROJECT_EXT_5"
-            defaultAction = UntrustedBuildsSettings.DefaultAction.APPROVE
+            defaultAction = UntrustedBuildsSettings.DefaultAction.IGNORE
             enableLog = true
-            approvalRules = "user:admin"
-            manualRunsApproved = false
         }
     }
 }
