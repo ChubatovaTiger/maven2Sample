@@ -70,7 +70,6 @@ object Buntrstd : BuildType({
             enabled = false
         }
         retryBuild {
-            enabled = false
             moveToTheQueueTop = true
         }
         schedule {
