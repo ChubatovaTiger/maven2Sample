@@ -93,7 +93,6 @@ object Buntrstd : BuildType({
             }
         }
         approval {
-            enabled = false
             approvalRules = "user:admin"
             timeout = 1
             manualRunsApproved = false
