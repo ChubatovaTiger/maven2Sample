@@ -61,7 +61,7 @@ object Buntrstd : BuildType({
     steps {
         script {
             id = "simpleRunner"
-            scriptContent = "exit 1"
+            scriptContent = "ls"
         }
     }
 
