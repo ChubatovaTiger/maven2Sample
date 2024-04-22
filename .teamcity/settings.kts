@@ -74,6 +74,7 @@ object Buntrstd : BuildType({
             moveToTheQueueTop = true
         }
         schedule {
+            enabled = false
             schedulingPolicy = cron {
                 minutes = "02"
                 hours = "17"
