@@ -13,6 +13,7 @@
     <groupId>org.company</groupId>
     <artifactId>sample</artifactId>
 
+    <version>LATEST</version>
 </dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
