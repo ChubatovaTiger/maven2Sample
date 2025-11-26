@@ -44,9 +44,17 @@ project {
             }
             connectionId = "Project2_AmazonWebServicesAws"
         }
+        s3Storage {
+            id = "PROJECT_EXT_20"
+            storageName = "fffsdsds"
+            bucketName = "chubatovawest1"
+            bucketPrefix = "dfdfdfvbasdsd"
+            forceVirtualHostAddressing = true
+            connectionId = "Project2_AmazonWebServicesAws"
+        }
         activeStorage {
             id = "PROJECT_EXT_5"
-            activeStorageID = "PROJECT_EXT_2"
+            activeStorageID = "PROJECT_EXT_20"
         }
         awsConnection {
             id = "Project2_AmazonWebServicesAws"
