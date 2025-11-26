@@ -50,9 +50,7 @@ project {
             bucketName = "chubatovawest1"
             bucketPrefix = "dfdfdfvbasdsd"
             forceVirtualHostAddressing = true
-            awsEnvironment = default {
-                awsRegionName = "eu-west-1"
-            }
+
             connectionId = "Project2_AmazonWebServicesAws"
         }
         activeStorage {
