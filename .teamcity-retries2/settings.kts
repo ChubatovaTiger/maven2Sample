@@ -70,7 +70,8 @@ object Build : BuildType({
             }
         }
         retrySettings {
-            maxAttempts = 4
+            maxAttempts = 3
+     retryOnSameFailure = true
         }
     }
 })
