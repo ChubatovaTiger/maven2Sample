@@ -63,7 +63,7 @@ object Build : BuildType({
         }
         retrySettings {
             maxAttempts = 2
-            retryOnSameFailure = true
+            retryOnSameFailure = false
         }
     }
 })
