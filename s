@@ -3,6 +3,3 @@ ssd
 s
 ddd
 л
-s
-f
-g
