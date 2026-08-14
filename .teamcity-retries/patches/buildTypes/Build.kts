@@ -18,4 +18,14 @@ changeBuildType(RelativeId("Build")) {
             }
         }
     }
+
+    dependencies {
+        retrySettings {
+
+            check(retryOnSameFailure == false) {
+                "Unexpected option value: retryOnSameFailure = $retryOnSameFailure"
+            }
+            retryOnSameFailure = true
+        }
+    }
 }
