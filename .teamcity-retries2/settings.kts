@@ -91,9 +91,9 @@ object Build2 : BuildType({
             id = "simpleRunner"
             scriptContent = """
                 echo a > a.txt
-                if (( RANDOM % 2 )); then
+                //if (( RANDOM % 2 )); then
                   exit 1
-                fi
+               // fi
             """.trimIndent()
         }
     }
