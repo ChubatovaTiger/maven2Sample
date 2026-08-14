@@ -2,7 +2,7 @@ import jetbrains.buildServer.configs.kotlin.*
 import jetbrains.buildServer.configs.kotlin.buildSteps.script
 import jetbrains.buildServer.configs.kotlin.triggers.vcs
 import jetbrains.buildServer.configs.kotlin.vcs.GitVcsRoot
-a
+as
 /*
 The settings script is an entry point for defining a TeamCity
 project hierarchy. The script should contain a single call to the
